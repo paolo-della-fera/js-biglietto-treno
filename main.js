@@ -22,3 +22,5 @@ const priceKm = 0.21;
 console.log("Prezzo per km:", priceKm);
 
 
+// ora mi calcolo il prezzo base senza sconti 
+let price = km * priceKm

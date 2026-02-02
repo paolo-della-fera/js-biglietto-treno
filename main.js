@@ -20,6 +20,7 @@ const priceKm = 0.21;
 //stampo il prezzo per chilometro 
 console.log(priceKm);
 
-
+// calcolo il prezzo in base al costo per chilometro senza lo sconto
+const price = km * priceKm;
 
 

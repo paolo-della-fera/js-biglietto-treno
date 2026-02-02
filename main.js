@@ -7,10 +7,8 @@ i numeri vengono letti con il punto quindi sostituisco la virgola con il punto p
 */
 const km = parseFloat(prompt("Inserisci i chilometri da percorrere").replace(",", "."));
 
-
 // chiedo all'utente la sua età
 const age = parseInt(prompt("Inserisci l'età del passeggero"));
-
 
 // stampo l'eta e i chilometri da perccorrere
 console.log(km, age);
@@ -18,6 +16,9 @@ console.log(km, age);
 
 // prezzo definito in base hai chilometri €0.21 
 const priceKm = 0.21;
+
+//stampo il prezzo per chilometro 
+console.log(priceKm);
 
 
 

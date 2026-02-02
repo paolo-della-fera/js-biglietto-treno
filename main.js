@@ -11,14 +11,14 @@ const km = parseFloat(prompt("Inserisci i chilometri da percorrere").replace(","
 const age = parseInt(prompt("Inserisci l'età del passeggero"));
 
 // stampo l'eta e i chilometri da perccorrere
-console.log(km, age);
+console.log("Km:", km);
+console.log("Età:", age);
 
 
 // prezzo definito in base hai chilometri €0.21 
-console.log("Prezzo per km:", priceKm);
+const priceKm = 0.21;
 
 //stampo il prezzo per chilometro 
-console.log(priceKm);
-
+console.log("Prezzo per km:", priceKm);
 
 
